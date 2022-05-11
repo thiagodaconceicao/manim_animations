@@ -3,12 +3,16 @@ from manim import *
 class parabola(Scene):
     def construct(self):
         
-        graph = ComplexPlane()
-        
+        ax = Axes(
+                 
+   
+
+        axis_config={"include_numbers": True})
+        self.play(Create(ax))
         
           
         
        
         
-       
-        self.add(graph)
+        self.wait(2)
+        self.add(ax)
