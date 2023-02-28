@@ -52,12 +52,6 @@ class Equation(Scene):
 
       self.play(text7.animate.to_edge(UP))
 
-      
-
-
-
-
-
       text8=Tex(r"$X_{1}=\frac{10}{2}=5$")
       self.add(text8)
       self.play(Write(text8))
