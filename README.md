@@ -1,1 +1,1 @@
-# my__manim__project
+# Manim animations
